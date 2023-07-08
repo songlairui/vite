@@ -127,6 +127,10 @@ export interface ServerOptions extends CommonServerOptions {
    * in a future minor version without following semver
    */
   force?: boolean
+  /**
+   * Add custom the shortcuts
+   */
+  shortcuts?: BindShortcutsOptions['customShortcuts']
 }
 
 export interface ResolvedServerOptions extends ServerOptions {

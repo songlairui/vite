@@ -194,6 +194,8 @@ cli
               }
             },
           },
+          // ? HOW to deal with key-conflict
+          ...(options.shortcuts || [])
         ],
       })
     } catch (e) {
